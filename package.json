@@ -1,0 +1,24 @@
+{
+  "name": "user-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "user-server": "export NODE_ENV=development && nodemon server.js",
+    "start": "export NODE_ENV=development && nodemon server.js",
+    "start_prod": "export NODE_ENV=production && nodemon server.js"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.1.1",
+    "nodemon": "^3.0.3",
+    "validator": "^13.11.0"
+  }
+}
